@@ -8,7 +8,7 @@ class SendMail
 		{
 
 
-    $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")->setUsername('avinashpawar059@gmail.com')->setPassword('Myyahoo31');
+    $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, "ssl")->setUsername('avinashpawar059@gmail.com')->setPassword('Myyahoo321');
     
     $mailer = Swift_Mailer::newInstance($transport);
     
