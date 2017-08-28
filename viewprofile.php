@@ -39,7 +39,7 @@
 
 
 
-$fetch_user_data=  "SELECT  first_name, last_name, email, phone,city, looking_for FROM registered_users WHERE user_id = '" . $_SESSION['user_id'] . "'";
+$fetch_user_data=  "SELECT  user_id, first_name, last_name, email, phone,city, looking_for FROM registered_users WHERE user_id = '" . $_SESSION['user_id'] . "'";
 
 
   }
