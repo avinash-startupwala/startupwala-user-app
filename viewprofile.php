@@ -65,7 +65,18 @@ $fetch_user_data=  "SELECT  user_id, first_name, last_name, email, phone,city, l
 			   	 ?>
 			   	 <pre>
 			   	 <?php
-			 		print_r($row);
+			 		echo "First Name : ".$row['first_name'];
+				echo "<br>";
+			echo "Last Name : ".$row['last_name'];
+			echo "<br>";
+		echo "Email : ".$row['email'];
+			echo "<br>";
+		echo "Phone : ".$row['phone'];
+			echo "<br>";
+			echo "City : ".$row['city'];
+			echo "<br>";
+			echo "Looking For : ".$row['looking_for'];
+		//print_r($row);
 			   	 ?>
 			   	 </pre>
 			   	 <?php
