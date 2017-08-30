@@ -1,0 +1,124 @@
+.paymentbanner
+{
+background: #3FBDFA ;
+}
+.onlinepayment
+{
+	margin-bottom: 0;
+	margin-top: 6px;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-weight: 700; 
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+	font-family: 'OpenSans-Bold',Helvetica,sans-serif;
+	font-size: 34px !important;
+
+}
+@media screen and (min-width :1200px) and (max-width :1380px){
+	.groupventure{margin-top:-50px;}
+	.paymentform{
+		top: 50% !important;
+     left: 18.2%!important;
+	 position:relative;
+  
+	}
+	
+	.buttonalignment {
+    top: 0%!important;
+    left: 60%!important;
+}
+.onlinepayment
+{
+	font-size: 34px !important;
+}
+.indiv {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 8px;
+    font-family: Open Sans,sans-serif !important;
+    margin-left: 272px;
+    padding: 1px;
+    text-align: center;
+    width: 50%;
+}
+
+}
+@media screen and (min-width :1024px) and (max-width:1119px) {
+.paymentform{
+		top: 50% !important;
+     left: 18.2%!important;
+	 position:relative;
+  
+	}
+	
+}
+
+	
+}
+@media screen and (min-width :768px){
+	
+	.buttonalignment{
+		top: 0%!important;
+  left: 161%!important;
+  
+	}
+	.onlinepayment
+{
+	 font-size: 24px;
+}
+.indiv {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 8px;
+    font-family: Open Sans,sans-serif !important;
+    margin-left: 172px;
+    padding: 1px;
+    text-align: center;
+    width: 50%;
+}
+
+	
+}
+@media screen and (min-width :640px){
+.indiv {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 8px;
+    font-family: Open Sans,sans-serif !important;
+    margin-left: 29px;
+    padding: 1px;
+    text-align: center;
+    width: 80%;
+}
+.onlinepayment
+{
+	 font-size: 24px !important;
+}
+.buttonalignment{
+		top: 0%!important;
+  left: 28%!important;
+  
+	}
+}
+@media screen and (min-width :360px){
+.buttonalignment{
+		top: 0%!important;
+  left: 28%!important;
+  
+	}
+
+}
+@media screen and (min-width :320px){
+.onlinepayment
+{
+	 font-size: 24px !important;
+}
+.indiv {
+    background: #efefef none repeat scroll 0 0;
+    border-radius: 8px;
+    font-family: Open Sans,sans-serif !important;
+    margin-left: 29px;
+    padding: 1px;
+    text-align: center;
+    
+}
+}
+

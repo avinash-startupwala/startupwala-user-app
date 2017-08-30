@@ -1,0 +1,169 @@
+#tabs {
+  overflow: hidden;
+  width: 100%;
+ 
+  padding: 0;
+  list-style: none;
+   
+}
+
+#tabs li {
+  float: left;
+  margin: 0 .3em 0 0;
+   border: 1px solid #ddd;
+}
+
+#tabs a {
+  position: relative;
+  background-image: linear-gradient(to bottom, #fff, #ddd);  
+  padding: .7em 1.5em;
+  float: left;
+  text-decoration: none;
+  
+  font-size: 14px;
+  color: #000;	
+  font-weight:bold;
+}
+
+#tabs a:hoverhover,
+#tabs a:hover::after,
+#tabs a:focus,
+#tabs a:focus::after {
+ background: #fff;
+border-style: 1px solid none;
+}
+
+#tabs a:focus {
+  outline: 0;
+   color:black;
+}
+
+#tabs a::after {
+ 
+   color:#0a85c9;
+}
+
+#tabs #current a,
+#tabs #current a::after {
+  background: #fff;
+  z-index: 3;
+    border-top: 2px solid #0a85c9;
+ color:#0a85c9;
+}
+
+#demopage1 {
+  background: #fff;
+  padding: 2em;
+  position: relative;
+  z-index: 2; 
+ border: 1px solid #ddd;
+ 
+}
+ul.tabs li.selected a
+{
+     background: white none repeat scroll 0 0;
+    border-bottom-color: #ddd;
+    border-left-color: #ddd;
+    border-right-color: #ddd;
+    border-top: 2px solid #0a85c9;
+    color: #0a85c9;
+    font-weight: bolder;
+    z-index: 3;
+} 
+#tabs #current
+{
+	background: white none repeat scroll 0 0;
+    border-bottom-color: #ddd;
+    border-left-color: #ddd;
+    border-right-color: #ddd;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(#f4f4f4, #eee 50%, #d9d9d9 50%, #f4f4f4);
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+	color:black;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: normal;
+	line-height: 18px;
+    outline: medium none;
+    font-weight: bolder;
+    
+    position: relative;
+    text-decoration: none;
+	
+}
+ul.tabs li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f5f5f5;
+    background-image: linear-gradient(#f4f4f4, #eee 50%, #d9d9d9 50%, #f4f4f4);
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-radius: 3px 3px 0 0;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    color: #222;
+    display: inline-block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 34px;
+    outline: medium none;
+    padding: 0 16px;
+    position: relative;
+    text-decoration: none;
+}
+div.panel-container
+{
+    border:1px solid #DDD; /*color #1*/ 
+ /*   border-radius:0 4px 4px 4px;*/
+    background-color:white; /*color #2*/
+    position:relative;    
+    padding:0px;
+    outline:none;
+   margin:-11px 0 0
+}
+
+/* content panel */       
+
+div.panel-container > div
+{
+    /*padding:30px 34px;*/
+	padding: 31px 20px;
+    
+    /* The two settings below should not be changed. */
+    display: block;
+    margin:0px;
+}  
+div.panel-container div.inactive
+{
+    display: none;
+}
+@media only screen and (max-width:560px){
+  div.panel-container > div
+{
+    /*padding:30px 34px;*/
+	padding: 31px 20px;
+    
+    /* The two settings below should not be changed. */
+    display: block;
+    margin:0px;
+}    
+}
+@media only screen and (max-width:400px){
+div.panel-container > div
+{
+    /*padding:30px 34px;*/
+	padding: 31px 22px;
+    
+    /* The two settings below should not be changed. */
+    display: block;
+    margin:0px;
+} 
+
+}
