@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-</html>
-<head>
-  <title>Startupwala - Sign Up</title>
-</head>
-<body>
-  <h3>Startupwala - Sign Up</h3>
 
 <?php
   require_once('heroku_postgres_database.php');
@@ -59,5 +52,4 @@ $herokupostgrsdatabse = new HerokuPostgresDatabase();
 ?>
 
  
-</body> 
-</html>
+
