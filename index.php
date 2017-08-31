@@ -39,7 +39,7 @@
       
       <ul class="tab-group">
         <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab "><a href="log.php">Log In</a></li>
+        <li class="tab "><a href="https://startupwala.herokuapp.com/log.php">Log In</a></li>
       </ul>
       
       <div class="tab-content">
