@@ -28,7 +28,7 @@ $herokupostgrsdatabse = new HerokuPostgresDatabase();
 
         // Confirm success with the user
 
-     // header('Location: https://startupwala.herokuapp.com/thank.html');
+     header('Location: https://startupwala.herokuapp.com/thank.html');
 
 
         
