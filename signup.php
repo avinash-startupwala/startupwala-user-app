@@ -6,7 +6,7 @@ print_r($_POST);
 //   // Connect to the database
 $herokupostgrsdatabse = new HerokuPostgresDatabase();
 
-  if (isset($_POST['submit'])) {
+
     // Grab the profile data from the POST
     $first_name = $herokupostgrsdatabse->escape_value(trim($_POST['first_name']));
       $last_name = $herokupostgrsdatabse->escape_value(trim($_POST['last_name']));
@@ -42,11 +42,7 @@ $herokupostgrsdatabse = new HerokuPostgresDatabase();
         echo '<p class="error">An account already exists for this username. Please use a different address.</p>';
         $username = "";
       }
-   // }
-    else {
-      echo '<p class="error">You must enter all of the sign-up data, including the desired password twice.</p>';
-    }
-  }
+
 
 
 ?>
