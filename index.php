@@ -46,7 +46,7 @@
         <div id="signup">   
           <h1>Sign Up for Free</h1>
           
-          <form action="signup.php" method="post">
+          <form action="https://startupwala.herokuapp.com/signup.php" method="post">
         
           
            
